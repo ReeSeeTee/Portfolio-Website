@@ -1,0 +1,140 @@
+header {
+  width: 100%;
+  height: 5vh;
+  background-color: white; /*#26243E;*/
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  font-family: 'Livvic' ,sans-serif;
+  font-weight: 350;
+  color: #26243E;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom; 0;
+  background-color: #26243E;
+  font-weight: 300;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Change text colour in the footer. */
+}
+
+.section-landing {
+  height: auto;
+  min-height: 80vh;
+  background-color: white; /* Assigns the background colour. */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* ALigns the text to the center of the page. */
+  scale: auto;
+}
+
+.container2 { /* HELLO + My name is */
+  align-items: center;
+  position: relative;
+  right: 22.8vw;
+  top: 2vw;
+  font-size: 2vw;
+}
+
+.container2 .d1 { /* HELLO! */
+  display: inline-block;
+  font-weight: 900;
+  font-style: italic;
+  margin: 0px 10px 0px 0px;
+}
+
+.container2 .d2 { /* My name is..*/
+  display: inline-block;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.RTName { /*REECE TUMBRIDGE */
+  font-size: 7.5vw;
+  font-weight: 900;
+  bottom: 30px;
+}
+
+.d3 { /* I am a Web developer living in South London..*/
+  font-size: 2vw;
+  margin-top: 50px;
+}
+
+.nav-bar { /* Website Navigation */
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 100px;
+  font-size: 2vw;
+  color: blue;
+  list-style-type: none;
+}
+
+.nav-bar li {
+    margin: 15px 25px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.section-2, .section-3 { /* First project here */
+  height: auto;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.s2-image1 {
+  width: 500px;
+  border-radius: 50%;
+  height: 500px;
+  background-color: white;
+  border-style: solid;
+  border: 10px red;
+  position: static;
+  margin: 20px;
+
+}
+
+.s2-text {
+  max-width: 50%;
+  min-width: 50%;
+  font-size: auto;
+  position: relative;
+  margin: 20px;
+}
+
+
+
+.logo {
+  height: 25px;
+  margin: 0px 0px 0px 5px;
+}
+
+.container3 { /* Text and icons in the footer. */
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.footer-smalltext { /* Copyright text. */
+  font-size: 10px;
+  display: block;
+  margin: 10px;
+}
